@@ -17,7 +17,7 @@ const NewsItem = (props) => {
           <div className="card-body">
             <h5 className="card-title">
               {title}
-              <span className="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
+              <span className="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning" style={{color:"#aa00ff"}}>
                 {source}
                 <span className="visually-hidden">unread messages</span>
               </span>
